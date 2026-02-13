@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+logs/
+assets/proofs/
+assets/students/
+.vscode/
+.idea/
+*.exe
+*.dist/
+build/
+dist/

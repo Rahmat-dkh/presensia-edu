@@ -1,0 +1,9 @@
+opencv-python
+face_recognition
+customtkinter
+mysql-connector-python
+pandas
+openpyxl
+numpy
+Pillow
+python-dotenv
