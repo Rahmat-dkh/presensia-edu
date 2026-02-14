@@ -33,14 +33,12 @@ pip install opencv-python face-recognition customtkinter mysql-connector-python 
 
 ### 3. Konfigurasi Database
 1. Buat database baru di MySQL dengan nama `faceabsensi`.
-2. Edit file `.env` dan sesuaikan dengan user/password MySQL Anda:
-   ```env
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASS=
-   DB_NAME=faceabsensi
-   CAMERA_INDEX=0
+2. Salin file `.env.example` menjadi `.env`:
+   ```bash
+   cp .env.example .env
    ```
+3. Sesuaikan nilai di dalam file `.env` dengan konfigurasi MySQL Anda (DB_HOST, DB_USER, DB_PASS, dll).
+
 3. Jalankan skrip inisialisasi untuk membuat tabel otomatis:
    ```bash
    python database/init_db.py
